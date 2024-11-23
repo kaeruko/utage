@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 5010ad21920cf784f869ab7613106aba
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/LocalizeText/SystemText.txt
+  uploadId: 147762

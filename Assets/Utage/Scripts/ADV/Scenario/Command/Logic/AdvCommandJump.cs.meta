@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ab9c4fcea4d9604e92d63f9e02e034d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/ADV/Scenario/Command/Logic/AdvCommandJump.cs
+  uploadId: 147762

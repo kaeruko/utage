@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5e42eda99a9ee4a9abfbbc69695983bb
+AudioImporter:
+  serializedVersion: 4
+  format: -1
+  quality: .5
+  stream: 1
+  3D: 0
+  forceToMono: 0
+  useHardware: 0
+  loopable: 0
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/Audio/UI/mouse_hover_1.wav
+  uploadId: 147762

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe135d94a33bb02499e190ffec388889
+timeCreated: 1454392890
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/Resources/Template/Texture/Character/keep.keep
+  uploadId: 147762

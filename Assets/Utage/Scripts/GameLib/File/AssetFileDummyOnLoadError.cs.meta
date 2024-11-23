@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 73e9d43963028ff4ba2dca2bbddc3f32
+timeCreated: 1464948146
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/GameLib/File/AssetFileDummyOnLoadError.cs
+  uploadId: 147762

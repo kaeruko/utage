@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 723f576ab570ce147ab0094df881bed5
+timeCreated: 1446778282
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/ADV/DataManager/SettingData/AdvLocalizeSetting.cs
+  uploadId: 147762

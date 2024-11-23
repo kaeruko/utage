@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4105690d19015ef44a8b9f36351daf54
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/TemplateUI/Gallery/UtageUguiCgGalleryItem.cs
+  uploadId: 147762

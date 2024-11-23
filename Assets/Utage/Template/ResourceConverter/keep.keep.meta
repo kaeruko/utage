@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b5102f0be6858d4da997df502c8791e
+timeCreated: 1471962252
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/ResourceConverter/keep.keep
+  uploadId: 147762

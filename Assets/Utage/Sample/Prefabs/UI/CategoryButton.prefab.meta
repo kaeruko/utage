@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c7b34a19e24ba64fa502d7ccb2dd190
+timeCreated: 1448744209
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/Prefabs/UI/CategoryButton.prefab
+  uploadId: 147762

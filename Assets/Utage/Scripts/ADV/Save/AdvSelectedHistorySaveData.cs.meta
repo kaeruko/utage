@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f35dbac317c36cf4380fde90ec02e01b
+timeCreated: 1454798161
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/ADV/Save/AdvSelectedHistorySaveData.cs
+  uploadId: 147762

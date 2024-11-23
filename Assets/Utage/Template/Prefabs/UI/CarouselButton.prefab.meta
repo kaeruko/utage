@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ebef639b86b48c14d9c12ad15d300c1f
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/Prefabs/UI/CarouselButton.prefab
+  uploadId: 147762

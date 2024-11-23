@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6715f80782188554ca5d698da23d43c3
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/Prefabs/UI/BaclLogItem.prefab
+  uploadId: 147762

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 27efbfad5b08d52428c5dd2070d624c1
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/Prefabs/UI/SelectionItem.prefab
+  uploadId: 147762

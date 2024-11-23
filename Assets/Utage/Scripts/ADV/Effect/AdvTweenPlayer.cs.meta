@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb356ea3cac181945b7cb79977085407
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/ADV/Effect/AdvTweenPlayer.cs
+  uploadId: 147762

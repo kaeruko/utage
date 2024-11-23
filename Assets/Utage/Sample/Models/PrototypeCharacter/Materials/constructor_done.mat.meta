@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ca49380a71a2bb64c830d06bd421b9d1
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/Models/PrototypeCharacter/Materials/constructor_done.mat
+  uploadId: 147762

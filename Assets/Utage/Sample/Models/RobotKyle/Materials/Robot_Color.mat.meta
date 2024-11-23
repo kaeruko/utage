@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0aa851515cd3747d6b3b3e461199a2ed
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/Models/RobotKyle/Materials/Robot_Color.mat
+  uploadId: 147762

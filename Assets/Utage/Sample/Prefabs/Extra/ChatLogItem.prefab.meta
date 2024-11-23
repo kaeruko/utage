@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb406ba348c0f124c97a03e57e0514fe
+timeCreated: 1455237284
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/Prefabs/Extra/ChatLogItem.prefab
+  uploadId: 147762

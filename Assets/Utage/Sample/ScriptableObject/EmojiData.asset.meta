@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97c75313fe66aad40b3b3f53769adf97
+timeCreated: 1448744210
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/ScriptableObject/EmojiData.asset
+  uploadId: 147762

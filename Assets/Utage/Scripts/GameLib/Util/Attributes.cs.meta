@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 84b2196697f0f9548bd21a67de15a6bf
+timeCreated: 1436592455
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/GameLib/Util/Attributes.cs
+  uploadId: 147762

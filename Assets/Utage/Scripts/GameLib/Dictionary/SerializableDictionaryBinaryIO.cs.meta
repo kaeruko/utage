@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76dadae8b6cc697468129fbaaf1943bc
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/GameLib/Dictionary/SerializableDictionaryBinaryIO.cs
+  uploadId: 147762

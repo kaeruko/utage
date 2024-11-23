@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: eb4e385525749124ba100e715743b69c
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Template/ScriptableObject/TextSettings.asset
+  uploadId: 147762

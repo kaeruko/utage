@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9d95df26464bba74c88d4e890869ae5a
+timeCreated: 1440279666
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Scripts/ADV/Scenario/AdvScenarioTextDataInPage.cs
+  uploadId: 147762

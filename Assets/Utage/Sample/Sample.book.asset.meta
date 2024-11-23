@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 665534c2af62bc64080a7b60c5e97238
+timeCreated: 1456472596
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 15905
+  packageName: UTAGE Unity Text Adventure Game Engine
+  packageVersion: 2.6.15
+  assetPath: Assets/Utage/Sample/Sample.book.asset
+  uploadId: 147762
