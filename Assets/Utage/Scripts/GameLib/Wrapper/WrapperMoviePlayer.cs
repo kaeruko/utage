@@ -79,7 +79,7 @@ namespace Utage
 #if false
 		public List<VideoPlayer> movieList;
 #endif
-		VideoPlayer movieTexture;
+	    private VideoPlayer movieTexture;
 #endif
 		void Awake()
 		{
@@ -245,21 +245,48 @@ namespace Utage
 		{
 			GameObject target = Target;
 			RawImage rawImage = target.GetComponent<RawImage>();
+			RenderTexture renderTexture = movieTexture.targetTexture;
+			if (renderTexture == null)
+			{
+				// もしtargetTextureが設定されていない場合は新しく作成
+				renderTexture = new RenderTexture(
+					(int)movieTexture.clip.width,
+					(int)movieTexture.clip.height,
+					24);
+				movieTexture.targetTexture = renderTexture;
+			}
+
+
 			if(rawImage)
 			{
 				rawImage.enabled = true;
-				rawImage.texture = movieTexture;
+				rawImage.texture = renderTexture;
 			}
 			else
 			{
-				target.GetComponent<Renderer>().material.mainTexture = movieTexture;
+				target.GetComponent<Renderer>().material.mainTexture = renderTexture;
 			}
-			movieTexture.loop = isLoop;
+			movieTexture.isLooping = isLoop;
 			movieTexture.Play();
-			if (movieTexture.audioClip)
+			if (movieTexture.audioTrackCount > 0)
 			{
-				SoundManager.GetInstance().PlayBgm(movieTexture.audioClip, isLoop);
+				// VideoPlayerに対してAudioSourceを設定
+				var audioSource = movieTexture.GetComponent<AudioSource>();
+				if (audioSource == null)
+				{
+					audioSource = movieTexture.gameObject.AddComponent<AudioSource>();
+				}
+				
+				movieTexture.audioOutputMode = VideoAudioOutputMode.AudioSource;
+				movieTexture.SetTargetAudioSource(0, audioSource);
+				
+				// AudioSourceの設定をSoundManagerに渡す
+				if (audioSource.clip != null)
+				{
+					SoundManager.GetInstance().PlayBgm(audioSource.clip, isLoop);
+				}
 			}
+
 		}
 
 		void FadeOutMovie( float fadeTime )
@@ -272,7 +299,7 @@ namespace Utage
 			}
 			if (movieTexture)
 			{
-				if (movieTexture.audioClip)
+	            if (movieTexture.audioTrackCount > 0)
 				{
 					SoundManager.GetInstance().StopBgm(cancelFadeTime);
 				}
