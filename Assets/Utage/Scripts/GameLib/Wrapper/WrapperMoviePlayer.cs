@@ -221,22 +221,19 @@ namespace Utage
 			yield return new WaitForSeconds(cancelFadeTime);
 			yield return StartCoroutine(CoStopMovieTexture() );
 		}
-
 		IEnumerator CoStopMovieTexture()
 		{
-			if(movieTexture)
+			if (movieTexture)
 			{
-				movieTexture.Stop ();
-				if (movieTexture.audioClip)
+				movieTexture.Stop();
+				// VideoPlayerのaudio trackが設定されているかチェック
+				if (movieTexture.audioTrackCount > 0 && movieTexture.enabled)
 				{
 					SoundManager.GetInstance().StopBgm();
 				}
 			}
-			ClearRenderTargetTexture ();
-/*			if (loadedLocalResouces)
-			{
-				Resources.UnloadAsset(movieTexture);				
-			}*/
+			ClearRenderTargetTexture();
+			
 			Resources.UnloadAsset(movieTexture);
 			movieTexture = null;
 			yield return Resources.UnloadUnusedAssets();
